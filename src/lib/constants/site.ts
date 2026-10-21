@@ -1,0 +1,26 @@
+// Transcribed from the supplied design reference; verify before commercial release.
+export const site = {
+  name: "JORAKAY",
+  hotline: "028 7300 0801",
+  hotlineHref: "tel:02873000801",
+  company: "CÔNG TY TNHH JORAKAY VIỆT NAM",
+  companyEnglish: "JORAKAY VIETNAM COMPANY LIMITED",
+  taxId: "0317969964",
+  hcmAddress: "Số 17 Nguyễn Thị Thập, Khu đô thị mới Him Lam, Phường Tân Hưng, TP. Hồ Chí Minh, Việt Nam.",
+  hanoiAddress: "LK2.1.1, Dự án FLC Parc, Phường Đại Mỗ, TP. Hà Nội, Việt Nam.",
+  officePhone: "032 516 8681",
+  officePhoneHref: "tel:0325168681",
+  email: "hotline@jorakay.vn",
+  website: "https://www.jorakay.vn",
+  storeLocatorUrl: "https://timcuahang.jorakay.vn/?utm_source=Social&utm_medium=social_ads&utm_campaign=CuaHangChinhHang",
+  privacyPolicyUrl: null as string | null,
+  socialLinks: [
+    { label: "YouTube", url: process.env.NEXT_PUBLIC_SOCIAL_YOUTUBE_URL?.trim() || "" },
+    { label: "Zalo", url: process.env.NEXT_PUBLIC_SOCIAL_ZALO_URL?.trim() || "" },
+    { label: "TikTok", url: process.env.NEXT_PUBLIC_SOCIAL_TIKTOK_URL?.trim() || "" },
+    { label: "Facebook", url: process.env.NEXT_PUBLIC_SOCIAL_FACEBOOK_URL?.trim() || "" },
+  ],
+  footerQrImagePath: "/qrcode_416897112_ed8ae4128ec3a34b1ea3050c4d3f83e5.png",
+  officialLogoPath: "/JORAKAY LOGO Color-01.png",
+  productImagePath: "/Jorakay Poster (26.10.13).jpg",
+};

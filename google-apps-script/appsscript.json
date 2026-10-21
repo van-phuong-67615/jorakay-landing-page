@@ -1,0 +1,6 @@
+{
+  "timeZone": "Asia/Ho_Chi_Minh",
+  "dependencies": {},
+  "runtimeVersion": "V8",
+  "oauthScopes": ["https://www.googleapis.com/auth/spreadsheets"]
+}
